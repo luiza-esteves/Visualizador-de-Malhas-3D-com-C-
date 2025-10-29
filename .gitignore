@@ -1,0 +1,49 @@
+# Build system
+/build/
+/CMakeFiles/
+/CMakeCache.txt
+/cmake_install.cmake
+/Makefile
+/build.ninja
+/compile_commands.json
+
+# Build outputs / binaries
+/bin/
+/lib/
+/*.so
+/*.a
+/*.dll
+/*.exe
+*.o
+*.obj
+*.lo
+
+# Editor / OS
+.vscode/
+.idea/
+*.sublime-*
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# Logs / temp
+*.log
+*.out
+*.err
+/.cache/
+
+# Coverage / test artefacts
+coverage/
+*.gcno
+*.gcda
+
+# Dependency build outputs (if you build deps locally)
+dep/*/build/
+dep/*/bin/
+dep/*/lib/
+
+# Secrets / env
+*.env
+.env.*
+
